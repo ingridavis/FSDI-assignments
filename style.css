@@ -5,7 +5,7 @@ body{
 }
 
 p{
-    font-size: 14px
+    font-size: 14px;
     line-height: 2;
 }
 
@@ -60,6 +60,13 @@ header{
     text-align: justify;
 }
 
+.bio-img{
+    border: 5px solid black;
+    width: 300px;
+    border-radius: 5px
+}
+
+
 /* icons */
 
 .icon{
@@ -72,4 +79,91 @@ header{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+}
+
+/* menu */
+
+.menu{
+    background-color: #dedede;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+.menu a:hover{
+    font-size: 25px;
+    color: #902222;
+}
+
+/* contact */
+.contact{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.contact-img{
+    display: block;
+    border: 5px solid gray;
+    width: 400px;
+    border-radius: 5px;
+    opacity: .7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.fa{
+    font-size: 25px;
+    color: #221b88;
+    opacity: 80%;
+}
+
+/* footer */
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+footer p{
+    font-size: 10px;
+}
+
+/* Lists */
+ul,ol{
+    list-style-image: url(flower.png);
+    background-color: rgb(61, 59, 59);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right:20px;
+    width: 50%;
+    margin-left: 100px;
+}
+
+li{
+    background-color: rgb(105, 101, 101);
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(61, 59, 59);
+    Color: teal;
 }
